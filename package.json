@@ -1,24 +1,25 @@
 {
-  "name": "javascript-hashmap",
+  "name": "js-algorithms",
   "version": "1.0.0",
-  "description": "Una tabla hash, **matriz asociativa**, hashing, mapa hash, tabla de dispersión o tabla fragmentada es una estructura de datos que asocia llaves o claves con valores. La operación principal que soporta de manera eficiente es la búsqueda: permite el acceso a los elementos (teléfono y dirección, por ejemplo) almacenados a partir de una clave generada (usando el nombre o número de cuenta, por ejemplo). Funciona transformando la clave con una función hash en un hash, un número que identifica la posición (casilla o cubeta) donde la tabla hash localiza el valor deseado.1​",
+  "description": "​Big-O Complexity Algorithms",
   "main": "",
   "directories": {
-    "lib": "lib"
+    "lib": "src",
+    "test": "test"
   },
   "scripts": {
     "test": "mocha ./test/ --reporter spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ecaminero/javascript-hashmap.git"
+    "url": "git+https://github.com/ecaminero/js-algorithms.git"
   },
   "author": "ecaminero",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ecaminero/javascript-hashmap/issues"
+    "url": "https://github.com/ecaminero/js-algorithms/issues"
   },
-  "homepage": "https://github.com/ecaminero/javascript-hashmap#readme",
+  "homepage": "https://github.com/ecaminero/js-algorithms#readme",
   "dependencies": {
     "faker": "^4.1.0",
     "mocha": "^7.0.1",
