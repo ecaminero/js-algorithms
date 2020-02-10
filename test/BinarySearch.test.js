@@ -1,7 +1,7 @@
 const BinarySearch = require('../src/BinarySearch');
 const test = require('unit.js');
 
-const numberElement = 100000000;
+const numberElement = 10000000;
 const longArray = [...Array(numberElement).keys()]
 
 const shortArray = [1,2,3,4,5,6,7,8,9,10];
@@ -33,6 +33,11 @@ describe('BinarySearch', function () {
       .number(elementToSearch).is(item);
   });
 
+  it(`I can search for an item that does not exist`, function () {
+    const item = BinarySearch(shortArray, 1000);
+    test
+      .number(item).is(-1);
+  });
 
 });
 
