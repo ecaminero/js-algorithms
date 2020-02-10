@@ -42,5 +42,3 @@ describe('BinarySearch', function () {
 });
 
 
-
-[...Array(10).keys()]
