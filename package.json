@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ecaminero/js-algorithms#readme",
   "dependencies": {
     "faker": "^4.1.0",
-    "mocha": "^7.0.1",
+    "mocha": "^10.2.0",
     "unit.js": "^2.1.1"
   }
 }
